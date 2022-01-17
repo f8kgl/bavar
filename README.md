@@ -7,3 +7,5 @@ BAVAR is an ham radio project of listening beacon on amateur radio band. The obj
 
 *Français*  
 Le BAVAR est un pojet radioamateur d'écoute de balise radioamateur, dans le but de relver les niveaux de signal reçus (CW, FM, à définir), et les correler aux études de phénomènes de propagation
+
+73's - Fabrice, F4BJH
