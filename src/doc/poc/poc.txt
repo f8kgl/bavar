@@ -1,0 +1,31 @@
+Description des étapes du POC (Proof of Concept)
+
+
+Contraintes à prendre en compte
+échantillonage à 3,3kSps (ADS1015 12-BIT)
+calcul du niveau de signal = I² + Q² => démodulateur I/Q
+
+Chaîne radio
+============
+
+1/TX
+1.1/Générer une porteuse pure à f=144MHz
+1.2/Tracer sa FFT
+
+2/RX
+1.1/Double changement de fréquence (faut-il faire un zéro IF ?)
+1.2/Echantillonnage
+1.3/Calcul des voies I et Q (sur une porteuse pure => l'une des 2 voies
+devraient être nulle !!!)
+1.4/Rechercher le max sur N (?) échantillons
+
+
+FPGA SoC
+========
+
+1/Lien I2C
+1.1/Piloter un MSIO depuis le FPGA
+1.2/Piloter un MSIO depuis le sw
+
+2/Choisir entre uCLinux et FreeRTOS
+j'avoue que le challenge FreeRTOS me plaît d'un point de vue technique !!!
